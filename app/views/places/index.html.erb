@@ -1,0 +1,9 @@
+<h1>Places to Visit</h1>
+ 
+<table>
+  <% @places.each do |place| %>
+    <tr>
+      <td><%= place.title %></td>
+    </tr>
+  <% end %>
+</table>
